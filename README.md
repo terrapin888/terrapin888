@@ -116,7 +116,7 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 
 **Korea University** | Seoul, South Korea
 - B.S. in Electrical Engineering | March 2020 - February 2027 (Expected)
-- GPA: 3.85 / 4.5
+- GPA: 3.83 / 4.5
 
 ---
 
