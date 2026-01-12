@@ -48,7 +48,7 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 - Created extensible test environment with CLI tools
 - Separated dev/test modes for maintainability and easy onboarding
 
-### LANEIGE Ranking Insight Agent
+### [LANEIGE Ranking Insight Agent](https://github.com/terrapin888/amore_ai_agent)
 *Amorepacific AI Innovation Challenge 2026*
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
