@@ -153,10 +153,6 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=terrapin888&theme=default" alt="GitHub Streak" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=terrapin888&layout=compact&theme=default" alt="Top Languages" />
 </p>
 
