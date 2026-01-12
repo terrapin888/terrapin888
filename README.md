@@ -16,7 +16,7 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 
 - Building [mynextpc.kr](https://mynextpc.kr) - A free PC build quotation service
 - Exploring AI Agent development and LLM-based service architectures
-- Preparing for graduation (Expected Feb 2026)
+- Preparing for graduation (Expected Feb 2027)
 
 ---
 
@@ -30,10 +30,10 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-- Led a team of 5 to develop on-device AI email client for Snapdragon X Elite NPU
-- Reduced maximum task runtime by 75% through AI model quantization using QNN SDK
-- Designed scalable backend architecture with Flask and MySQL
-- Optimized 4 AI models including LLM using Qualcomm AI Hub for on-device inference
+- Led a team of 5 as team leader, managing project timeline and technical collaboration
+- Built AI-powered email automation: auto-summarization, smart categorization, intent-based reply generation, and task/deadline extraction
+- Optimized 4 AI models (Qwen2-7B, YOLOv8, EasyOCR, Nomic-Embed) using Qualcomm AI Hub and QNN SDK, achieving 75% inference time reduction
+- Designed Flask REST API with hash-based MySQL caching to eliminate duplicate emails, reduce Gmail API calls, and accelerate local LLM processing
 
 ### [Credit-PT](https://github.com/terrapin888/credit-pt) - Credit Recovery MCP
 *KOSCOM AI Agent Challenge 2025* | 2nd Prize
@@ -48,15 +48,18 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 - Created extensible test environment with CLI tools
 - Separated dev/test modes for maintainability and easy onboarding
 
-### [Barrel-Optimizer](https://github.com/terrapin888/barrel-optimizer) - Build Optimization CLI
+### LANEIGE Ranking Insight Agent
+*Amorepacific AI Innovation Challenge 2026*
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-- CLI tool that transforms barrel imports to direct file paths
-- Achieved 22.7% build time reduction on @toss/utils, es-toolkit, @mui/material
-- Used SWC for fast AST transformation over Babel
-- Solved barrel re-export static analysis failures in large-scale monorepos
+- Designed FastAPI-based REST API server with LangChain Agent integration
+- Built extensible agent architecture with 9 tools using plugin pattern
+- Implemented data pipeline using ChromaDB vector store and SQLite
+- Developed async data collection system with external API (Amazon PA-API) integration
 
 ### GPU Scheduler for ML Inference
 *Graduation Project* | Advisor: Prof. Jong Kook Kim, HPIC Lab
@@ -70,6 +73,16 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 - Achieved 31% cost reduction while maintaining performance SLAs
 - Built distributed environment using Ray Framework with PyTorch and CUDA
 - Dynamically selects optimal GPU combinations based on real-time cost, throughput, and power constraints
+
+### [Barrel-Optimizer](https://github.com/terrapin888/barrel-optimizer) - Build Optimization CLI
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+- CLI tool that transforms barrel imports to direct file paths
+- Achieved 22.7% build time reduction on @toss/utils, es-toolkit, @mui/material
+- Used SWC for fast AST transformation over Babel
+- Solved barrel re-export static analysis failures in large-scale monorepos
 
 ---
 
@@ -101,7 +114,7 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 ## Education
 
 **Korea University** | Seoul, South Korea
-- B.S. in Electrical Engineering | March 2020 - February 2026 (Expected)
+- B.S. in Electrical Engineering | March 2020 - February 2027 (Expected)
 - GPA: 3.85 / 4.5
 
 ---
