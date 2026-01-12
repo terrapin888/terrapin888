@@ -27,8 +27,8 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![QNN SDK](https://img.shields.io/badge/QNN_SDK-3253DC?style=flat-square&logo=qualcomm&logoColor=white)
 
 - Led a team of 5 as team leader, managing project timeline and technical collaboration
 - Built AI-powered email automation: auto-summarization, smart categorization, intent-based reply generation, and task/deadline extraction
@@ -54,7 +54,7 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square)
 
 - Designed FastAPI-based REST API server with LangChain Agent integration
 - Built extensible agent architecture with 9 tools using plugin pattern
@@ -78,11 +78,12 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![SWC](https://img.shields.io/badge/SWC-F8C457?style=flat-square&logo=swc&logoColor=black)
 
-- CLI tool that transforms barrel imports to direct file paths
-- Achieved 22.7% build time reduction on @toss/utils, es-toolkit, @mui/material
+- Built CLI tool to improve developer experience by reducing build time in large-scale monorepos
+- Achieved 22.7% build time reduction, speeding up development feedback loop
 - Used SWC for fast AST transformation over Babel
-- Solved barrel re-export static analysis failures in large-scale monorepos
+- Solved barrel re-export static analysis failures that slowed down CI/CD pipelines
 
 ---
 
