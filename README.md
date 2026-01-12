@@ -146,18 +146,6 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=terrapin888&show_icons=true&theme=default" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=terrapin888&layout=compact&theme=default" alt="Top Languages" />
-</p>
-
----
-
 ## Publication
 
 - S. U. Choi, S. Y. Kim, "Performance Analysis of a Real-Time Kernel in a RISC-V Environment for SDR," IEIE, November 2025.
