@@ -14,6 +14,7 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 
 ## Now
 
+- Building [Blogopt mobile application for blogger](https://apps.apple.com/kr/app/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%98%B5%ED%8A%B8-n-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%88%98%EC%9D%B5%ED%99%94/id6759182875)
 - Building [mynextpc.kr](https://mynextpc.kr) - A free PC build quotation service
 - Exploring AI Agent development and LLM-based service architectures
 - Preparing for graduation (Expected Feb 2027)
