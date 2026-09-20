@@ -2,7 +2,7 @@
 
 **Electrical & Electronic Engineering Undergraduate @ Korea University**
 
-I'm passionate about building scalable backend systems powered by AI. Through various projects, I've experienced how good development environments significantly impact productivity. I want to create environments where developers can focus solely on development.
+I build LLM applications and AI agents, with focus on production-grade agent architectures, evaluation methodologies, and system reliability. I care about how good development environments and rigorous evaluation loops shape great AI products.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/csu0915)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/terrapin888)
@@ -14,53 +14,70 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 
 ## Now
 
-- Building [Blogopt mobile application for blogger](https://apps.apple.com/kr/app/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%98%B5%ED%8A%B8-n-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%88%98%EC%9D%B5%ED%99%94/id6759182875)
-- Building [mynextpc.kr](https://mynextpc.kr) - A free PC build quotation service
-- Exploring AI Agent development and LLM-based service architectures
+- Building an **AI Agent for SQL performance analysis** @ **SAP STAR Intern** (SQL Agent TF Team, July 2026 – Present)
+- Contributing to the [langchain-ai](https://github.com/langchain-ai) ecosystem — docs, deepagents
+- Exploring AI Agent orchestration, LLM observability, and evaluation harness design
 - Preparing for graduation (Expected Feb 2027)
 
 ---
 
 ## Featured Projects
 
-### [E.M.Pilot](https://github.com/jinsunghub/copilot_project) - AI Email Client
-*Qualcomm @ Edge AI Developer Hackathon* | Top Prize (1st)
+### [Credit-PT](https://github.com/terrapin888/credit-pt) — Credit Recovery AI Agent
+*KOSCOM AI Agent Challenge 2025* | **2nd Prize**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![QNN SDK](https://img.shields.io/badge/QNN_SDK-3253DC?style=flat-square&logo=qualcomm&logoColor=white)
-
-- Led a team of 5 as team leader, managing project timeline and technical collaboration
-- Built AI-powered email automation: auto-summarization, smart categorization, intent-based reply generation, and task/deadline extraction
-- Optimized 4 AI models (Qwen2-7B, YOLOv8, EasyOCR, Nomic-Embed) using Qualcomm AI Hub and QNN SDK, achieving 75% inference time reduction
-- Designed Flask REST API with hash-based MySQL caching to eliminate duplicate emails, reduce Gmail API calls, and accelerate local LLM processing
-
-### [Credit-PT](https://github.com/terrapin888/credit-pt) - Credit Recovery MCP
-*KOSCOM AI Agent Challenge 2025* | 2nd Prize
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-blueviolet?style=flat-square)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square&logo=xgboost&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-- Built MCP server with 9 tools using plugin architecture
-- Implemented Docker containerization and comprehensive API documentation
-- Created extensible test environment with CLI tools
-- Separated dev/test modes for maintainability and easy onboarding
+- **Solo-developed** a personalized credit recovery AI agent for financially vulnerable individuals
+- Designed an **MCP server with 9 tools** (auth, data collection, ML analysis, RAG-based planning, public-service matching) — deployed via Docker-based native Claude Desktop integration
+- Combined LLM with an **XGBoost credit-score predictor** for quantitative accuracy and explainability (**MAE 15.74 / R² 0.8331**, 10 mydata-derived features)
+- Chose **RAG over fine-tuning** given Colab-level GPU constraints — built a **KR-SBERT + ChromaDB** RAG system mapping 20 recovery strategies from public institutions to ML scenarios
+- Introduced a **fallback chain (API → DB → user input)** stabilizing matching across **6,832 public financial products**
 
 ### [LANEIGE Ranking Insight Agent](https://github.com/terrapin888/amore_ai_agent)
 *Amorepacific AI Innovation Challenge 2026*
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![LangSmith](https://img.shields.io/badge/LangSmith-000000?style=flat-square)
+![Claude API](https://img.shields.io/badge/Claude_API-191919?style=flat-square&logo=anthropic&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-- Designed FastAPI-based REST API server with LangChain Agent integration
-- Built extensible agent architecture with 9 tools using plugin pattern
-- Implemented data pipeline using ChromaDB vector store and SQLite
-- Developed async data collection system with external API (Amazon PA-API) integration
+- **Led AI/backend implementation** in a 3-person team for a global beauty e-commerce ranking monitoring AI agent
+- Chose **LangGraph-based ReAct Agent** over a fixed pipeline since tool invocation order varied per user query — dynamic dispatch across **9 domain-specific tools**
+- Built a RAG system with **Claude API + ChromaDB + Sentence-Transformers (all-MiniLM-L6-v2)** for semantic product-context retrieval
+- Instrumented **LangSmith** for agent execution tracing — monitored tool-call flow, token usage, failure cases to iteratively refine prompts and tool logic
+- Combined 5 prompt-engineering techniques (CoT / Few-shot, etc.) for answer accuracy and format consistency
+
+### [E.M.Pilot](https://github.com/jinsunghub/copilot_project) — On-Device AI Email Agent
+*Qualcomm @ Edge AI Developer Hackathon* | **Top Prize (1st)**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-FFC131?style=flat-square&logo=tauri&logoColor=black)
+![QNN SDK](https://img.shields.io/badge/QNN_SDK-3253DC?style=flat-square&logo=qualcomm&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+- **Led a 5-engineer team as team lead & PM** for a Gmail-integrated on-device AI email agent
+- Designed an **embedding-based intent classifier** using Nomic-Embed with two dispatch paths — auto-categorizing incoming emails to downstream handlers (Qwen2-7B, EasyOCR, YOLOv8) and routing chatbot commands
+- Resolved on-device inference latency of **QNN-quantized models** by introducing a caching layer with a MySQL schema memoizing per-email AI outputs — **75% latency reduction** on repeated fetches
+- Designed and implemented a scalable **Flask/MySQL backend** supporting Gmail session management, user personalization, and multi-model orchestration
+
+### [BlogOPT](https://apps.apple.com/kr/app/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%98%B5%ED%8A%B8-n-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%88%98%EC%9D%B5%ED%99%94/id6759182875) — AI-Powered Productivity Tool for Bloggers
+*Solo-shipped to App Store & Google Play*
+
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+- Architected, built, and deployed **BlogOPT** to both App Store and Google Play — full end-to-end ownership from product strategy to production release
+- Designed a **multi-LLM pipeline** (Gemini Flash, GPT-4o mini, Claude Haiku) automating end-to-end SEO evaluation and content generation
+- Optimized database performance under scalable workloads by engineering automated query execution plan analysis and validating GIN indexing strategies
 
 ### GPU Scheduler for ML Inference
 *Graduation Project* | Advisor: Prof. Jong Kook Kim, HPIC Lab
@@ -70,43 +87,48 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 ![Ray](https://img.shields.io/badge/Ray-028CF0?style=flat-square&logo=ray&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
-- Designed adaptive scheduler for heterogeneous GPU environments
-- Achieved 31% cost reduction while maintaining performance SLAs
-- Built distributed environment using Ray Framework with PyTorch and CUDA
-- Dynamically selects optimal GPU combinations based on real-time cost, throughput, and power constraints
-
-### [Barrel-Optimizer](https://github.com/terrapin888/barrel-optimizer) - Build Optimization CLI
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![SWC](https://img.shields.io/badge/SWC-F8C457?style=flat-square&logo=swc&logoColor=black)
-
-- Built CLI tool to improve developer experience by reducing build time in large-scale monorepos
-- Achieved 22.7% build time reduction, speeding up development feedback loop
-- Used SWC for fast AST transformation over Babel
-- Solved barrel re-export static analysis failures that slowed down CI/CD pipelines
+- Designed an **adaptive scheduler for heterogeneous GPU environments** using Ray Framework
+- Achieved **31% cost reduction** while satisfying user-defined throughput and power constraints
+- Built scheduler algorithms selecting optimal GPU combinations for AI inference (YOLO-based object detection workloads)
 
 ---
 
-## Research Interests
+## Open Source Contributions
 
-- **AI Agent Systems** - Building intelligent agents with LLMs and tool integrations
-- **AI-Powered Backend** - Scalable inference serving and MLOps
-- **Real-Time Systems** - Kernel optimization and low-latency computing
-- **Developer Experience** - Build tools, CI/CD, and development environment optimization
+### [langchain-ai](https://github.com/langchain-ai) *(Sep 2026 – Present)*
+
+- **[langchain-ai/docs #6005](https://github.com/langchain-ai/docs/pull/6005)** — Added SkillsMiddleware override examples showing how to customize agent `system_prompt`, lowering ramp-up cost for developers building production LangChain agents *(merged)*
+- **[langchain-ai/deepagents #6316](https://github.com/langchain-ai/deepagents/pull/6316)** — Root-caused a silent data-corruption bug in deepagents' tool-result offload path and proposed the fix as **Co-Author**, restoring correctness of long-context tool outputs for LangGraph-based agents *(merged)*
 
 ---
 
 ## Experience
 
-### Research Intern @ ETRI
-*Super Computing System Lab* | July 2025 - August 2025
-- Improved real-time performance of ROS2 on RISC-V platform (SiFive HiFive) with Linux 6.12 RT-patched kernel
-- Reduced maximum latency and minimized performance variance for robot applications
-- Developed comprehensive build manual, reducing onboarding time for new researchers
+### SAP STAR Intern @ SAP — SQL Plan Mgmt Team (SQL Agent TF)
+*Seoul, South Korea* | July 2026 – Present
 
-### Undergraduate Intern @ Korea University
-*SMRL (SoC & Microprocessor Research Lab)* | December 2024 - February 2025
+- Developing an AI Agent for SQL performance analysis — owning end-to-end implementation across LangGraph agent architecture, A2A framework, evaluation flow, and skill-routing system
+- Refactored analysis logic previously bundled in a single prompt into modular parts, introduced a dedicated routing module, and redefined execution order between main/sub LLMs — resolving context contamination and reducing token consumption by **33%**
+- Designed an **A2A testing framework** for communication with upstream agents within SAP's AI Agent Joule, and optimized the **Human-in-the-Loop** workflow
+- Integrated an **LLM-as-a-Judge** based validation flow for diverse SQL scenarios into the CI/CD pipeline
+
+### AI Agent Verification & Evaluation @ Alignerr (Freelancer, Remote)
+*multi-challenge-v2-feb-2026 project* | February 2026 – May 2026
+
+- Evaluated **multi-turn conversation quality** of LLM agents through rubrics aligned with predefined evaluation axes
+- Combined **manual evaluation with AI-assisted quality checks**, applying a **blind evaluation setup** (scenario context withheld from the LLM judge) to minimize bias
+- **Promoted to Technical Reviewer**, auditing peer evaluations and providing feedback to ensure dataset integrity
+
+### Research Intern @ ETRI — Super Computing System Lab
+*Daejeon, South Korea* | July 2025 – August 2025
+
+- Set up an **ADAS-oriented RISC-V board** (SiFive HiFive Unmatched RevB) by building Ubuntu, Linux kernel, and ROS2 on bare metal
+- Built a **Linux 6.12 RT-patched kernel** with an optimized configuration — achieving **91.43% improvement** in ROS2 network responsiveness (real-time QoS) and **98.29% gain** under high network load
+- Presented the optimization results at the **IEIE Fall Conference 2025**
+
+### Undergraduate Intern @ Korea University — SMRL (SoC & Microprocessor Research Lab)
+*Seoul, South Korea* | December 2024 – February 2025
+
 - Advisor: Prof. Sung Woo Chung
 - Studied hardware/software optimization techniques for system-level power and thermal efficiency
 - Analyzed OS-level power management policies (DVFS, DTM)
@@ -127,23 +149,22 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-4B0082?style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ### AI/ML Frameworks
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Ray](https://img.shields.io/badge/Ray-028CF0?style=flat-square&logo=ray&logoColor=white)
-![QNN SDK](https://img.shields.io/badge/QNN_SDK-3253DC?style=flat-square&logo=qualcomm&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-blueviolet?style=flat-square)
 
-### Backend & Tools
+### Backend
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+
+### Systems
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
@@ -155,8 +176,8 @@ I'm passionate about building scalable backend systems powered by AI. Through va
 
 ## Awards & Honors
 
-- **Qualcomm @ Edge AI Developer Hackathon in Seoul** - Top Prize (1st Place)
-- **KOSCOM AI Agent Challenge 2025** - 2nd Prize
+- **Qualcomm @ Edge AI Developer Hackathon in Seoul** — Top Prize (1st Place)
+- **KOSCOM AI Agent Challenge 2025** — 2nd Prize
 
 ---
 
