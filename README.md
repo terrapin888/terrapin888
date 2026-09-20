@@ -69,16 +69,6 @@ I build LLM applications and AI agents, with focus on production-grade agent arc
 - Resolved on-device inference latency of **QNN-quantized models** by introducing a caching layer with a MySQL schema memoizing per-email AI outputs — **75% latency reduction** on repeated fetches
 - Designed and implemented a scalable **Flask/MySQL backend** supporting Gmail session management, user personalization, and multi-model orchestration
 
-### [BlogOPT](https://apps.apple.com/kr/app/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%98%B5%ED%8A%B8-n-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%88%98%EC%9D%B5%ED%99%94/id6759182875) — AI-Powered Productivity Tool for Bloggers
-*Solo-shipped to App Store & Google Play*
-
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-- Architected, built, and deployed **BlogOPT** to both App Store and Google Play — full end-to-end ownership from product strategy to production release
-- Designed a **multi-LLM pipeline** (Gemini Flash, GPT-4o mini, Claude Haiku) automating end-to-end SEO evaluation and content generation
-- Optimized database performance under scalable workloads by engineering automated query execution plan analysis and validating GIN indexing strategies
-
 ### GPU Scheduler for ML Inference
 *Graduation Project* | Advisor: Prof. Jong Kook Kim, HPIC Lab
 
